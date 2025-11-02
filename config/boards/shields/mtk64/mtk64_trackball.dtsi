@@ -90,11 +90,11 @@
         #input-processor-cells = <2>;
         require-prior-idle-ms = <500>;
         excluded-positions = <
-            43  // ] 
-            44  // N
-            45  // M
-            46  // <
-            47  // >
+            42  // [ 
+            41  // B
+            40  // V
+            39  // C
+            38  // X
         >; 
     };
 
