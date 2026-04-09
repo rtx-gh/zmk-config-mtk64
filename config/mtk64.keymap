@@ -19,22 +19,24 @@
     behaviors {
         // 垂直スクロール用のbehaviorの設定
 
-        scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
+        scroll_up_down: mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
             bindings = <&msc>, <&msc>;
 
             tap-ms = <20>; // スクロールのタップ時間
+            label = "0";
         };
 
         // 水平スクロール用のbehaviorの設定
 
-        scroll_left_right: behavior_sensor_rotate_mouse_wheel_left_right {
+        scroll_left_right: mouse_wheel_left_right {
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
             bindings = <&msc>, <&msc>;
 
             tap-ms = <20>; // スクロールのタップ時間
+            label = "1";
         };
     };
 };
