@@ -20,20 +20,22 @@
         // 垂直スクロール用のbehaviorの設定
         // 水平スクロール用のbehaviorの設定
 
-        scroll_up_down: behavior_sensor_rotate_mouse_wh {
+        scroll_up_down: scroll_up_down {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
 
             tap-ms = <20>;
+            label = "scroll_up_down";
         };
 
-        scroll_left_right: behavior_sensor_rotate_mouse_wh {
+        scroll_left_right: scroll_left_right {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_LEFT>, <&msc SCRL_RIGHT>;
 
             tap-ms = <20>;
+            label = "scroll_left_right";
         };
     };
 };
@@ -47,10 +49,9 @@
 &kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp JP_MINUS  &kp TAB  &kp Q  &kp L  &kp E  &kp MINUS  &kp COMMA  &kp PERIOD  &kp G  &kp K  &kp R  &kp P  &trans  &kp LCTRL  &kp A  &kp O  &mt LEFT_SHIFT E  &mt LEFT_CONTROL U  &kp I  &kp D  &mt LEFT_CONTROL H  &mt LEFT_SHIFT T  &kp N  &kp S  &kp TAB  &kp LSHFT  &kp F  &kp X  &kp C  &kp V  &kp SQT  &kp JP_LBKT  &tog 2  &kp B  &kp M  &kp W  &kp J  &kp Z  &mo 0  &kp LALT  &kp LGUI  &lt 3 SPACE  &lt 2 LANGUAGE_2  &kp BSPC  &kp ENTER  &kp LEFT  &kp RIGHT  &tog 0  &kp ENTER  &lt 1 LANG1  &kp SPACE  &kp ENTER  &tog 0  &kp LG(LEFT_ALT)  &kp LG(V)  &mo 0  &mo 0  &mo 0  &mo 0  &mo 0  &mo 0  &mo 0  &mo 0  &mo 0
             >;
 
-            sensor-bindings = <
-                &inc_dec_kp LEFT_ARROW RIGHT_ARROW
-                &inc_dec_kp UP_ARROW   DOWN_ARROW
-            >;
+            sensor-bindings =
+                <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>,
+                <&inc_dec_kp PG_UP PG_UP>;
         };
 
         layer_1 {
