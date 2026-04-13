@@ -23,7 +23,7 @@
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
-            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+            bindings = <&msc>, <&msc>;
             tap-ms = <20>; // スクロールのタップ時間
         };
         // 水平スクロール用のbehaviorの設定
@@ -105,7 +105,7 @@
             >;
             sensor-bindings = <
                 &scroll_left_right SCRL_LEFT SCRL_RIGHT
-                &scroll_up_down SCRL_UP SCRL_DOWN
+                &scroll_up_down SCRL_DOWN SCRL_UP
             >;
         };
     };
