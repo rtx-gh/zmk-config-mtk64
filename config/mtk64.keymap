@@ -14,7 +14,7 @@
 };
 
 &mkp_input_listener {
-    input-processors = <&zip_temp_layer 6 5000>;
+    input-processors = <&zip_temp_layer 3 5000>;
 };
 
 / {
@@ -106,48 +106,6 @@
             sensor-bindings = <
                 &scroll_left_right SCRL_LEFT SCRL_RIGHT
                 &scroll_up_down SCRL_UP SCRL_DOWN
-            >;
-        };
-
-        layer_4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                          &trans  &trans      &trans  &trans                          &trans  &trans
-                &trans  &trans                  &trans      &trans                  &trans  &trans
-                                                &trans      &trans
-        &trans  &trans  &trans                                                      &trans  &trans  &trans
-                                               &trans &trans &trans
-            >;
-        };
-
-        layer_5 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                          &trans  &trans      &trans  &trans                          &trans  &trans
-                &trans  &trans                  &trans      &trans                  &trans  &trans
-                                                &trans      &trans
-        &trans  &trans  &trans                                                      &trans  &trans  &trans
-                                               &trans &trans &trans
-            >;
-        };
-
-        layer_6 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans      &mkp MB4        &mkp MB5        &mkp MB1        &mkp MB2        &mkp MB3  &trans  &trans
-&trans  &trans                          &trans  &trans      &trans  &trans                          &trans  &trans
-                &trans  &trans                  &trans      &trans                  &trans  &trans
-                                                &trans      &trans
-        &trans  &trans  &trans                                                      &trans  &trans  &trans
-                                               &trans &trans &trans 
             >;
         };
     };
