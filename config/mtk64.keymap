@@ -45,7 +45,7 @@
 
         default_layer {
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans  &kp Q  &kp L  &kp Y  &kp MINUS  &kp COMMA  &kp DOT  &kp G  &kp K  &kp R  &kp P  &trans  &kp LEFT_SHIFT  &kp A  &kp O  &kp E  &kp U  &kp I  &kp D  &kp H  &kp T  &kp N  &kp S  &kp TAB  &kp LSHFT  &kp F  &kp X  &kp C  &kp V  &kp B  &trans  &tog 2  &kp B  &kp M  &kp W  &kp J  &kp Z  &trans  &kp RCTRL  &kp LGUI  &lt 3 SPACE  &lt 2 LANGUAGE_2  &kp BSPC  &kp ENTER  &kp LEFT  &kp RIGHT  &tog 2  &kp ENTER  &lt 1 LANG1  &mt LEFT_SHIFT LEFT_SHIFT  &kp ENTER  &tog 2  &kp LALT  &kp LG(V)  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans  &kp Q  &kp L  &kp Y  &kp MINUS  &kp COMMA  &kp DOT  &kp G  &kp K  &kp R  &kp P  &trans  &kp LEFT_SHIFT  &kp A  &kp O  &mt LSHIFT E  &mt LCTRL U  &kp I  &kp D  &mt RCTRL H  &mt LEFT_SHIFT T  &kp N  &kp S  &kp TAB  &kp LSHFT  &kp F  &kp X  &kp C  &kp V  &kp B  &trans  &tog 2  &kp B  &kp M  &kp W  &kp J  &kp Z  &trans  &kp RCTRL  &kp LGUI  &lt 3 SPACE  &lt 2 LANGUAGE_2  &kp BSPC  &kp ENTER  &kp LEFT  &kp RIGHT  &tog 2  &kp ENTER  &lt 1 LANG1  &mt LEFT_SHIFT LEFT_SHIFT  &kp ENTER  &tog 2  &kp LALT  &kp LG(V)  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
             >;
 
             sensor-bindings = <
@@ -62,7 +62,7 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans  &kp ESCAPE  &mkp LCLK  &trans  &mkp RCLK  &trans  &trans  &trans  &kp UP_ARROW  &trans  &kp PSCRN  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans  &kp ESCAPE  &mkp LCLK  &trans  &mkp RCLK  &trans  &trans  &trans  &kp UP_ARROW  &trans  &kp PSCRN  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &kp DELETE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <
